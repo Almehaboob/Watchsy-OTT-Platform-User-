@@ -1,0 +1,14 @@
+/* LogoutModal.css */
+
+.logout-modal .modal-content {
+    background-color: #e6e6fa; /* Light violet background */
+    color: #000; /* Black text color */
+}
+
+.logout-modal .modal-header {
+    border-bottom: none; /* Remove border */
+}
+
+.logout-modal .modal-footer {
+    border-top: none; /* Remove border */
+}

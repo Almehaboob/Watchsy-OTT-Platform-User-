@@ -1,0 +1,79 @@
+/* Signup.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Use a better font for overall appearance */
+    background-image: url('https://images.hdqwalls.com/download/lofi-boy-7z-1920x1200.jpg'); /* Your background image */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Default text color */
+  }
+  
+  .signup-container {
+    min-height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .signup-container .card {
+    width: 25rem; /* Fixed width for the card */
+    padding: 2rem; /* Padding inside the card */
+    background: rgba(111, 66, 193, 0.8); /* Semi-transparent purple background */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Soft border */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4); /* Shadow */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+  }
+  
+  .signup-container .card:hover {
+    transform: scale(1.02); /* Scale effect on hover */
+  }
+  
+  .signup-container .card-title {
+    font-size: 2rem; /* Increased font size */
+    text-align: center; /* Center title */
+    color: #fff; /* White color for title */
+  }
+  
+  .signup-container .form-label {
+    color: #fff; /* White color for labels */
+  }
+  
+  .signup-container .form-control {
+    background: rgba(255, 255, 255, 0.8); /* Light background for input fields */
+    color: #333; /* Dark text color */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .signup-container .form-control:focus {
+    border-color: #5a2b9a; /* Darker purple on focus */
+    box-shadow: 0 0 5px rgba(90, 43, 154, 0.5); /* Light purple shadow effect on focus */
+  }
+  
+  .signup-container .btn-primary {
+    background-color: #5a2b9a; /* Darker purple for button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .signup-container .btn-primary:hover {
+    background-color: #4e2490; /* Even darker purple on hover */
+  }
+  
+  
+  /* Add this to Signup.css */
+
+.login-link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set the link color to white */
+  }
+  
+  .login-link:hover {
+    color: #d1d1d1; /* Optional: Change color on hover for better visibility */
+  }
+  

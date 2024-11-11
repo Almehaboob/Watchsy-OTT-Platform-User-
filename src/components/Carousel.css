@@ -1,0 +1,14 @@
+.custom-carousel{
+  margin-top: 36px;
+}
+.custom-carousel img {
+    height: 300px; /* Adjust the height based on your requirements */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }
+  
+  .custom-carousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

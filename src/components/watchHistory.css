@@ -1,0 +1,9 @@
+
+.watch-date {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #a9a9a9; /* Light gray color for watch date */
+}
+.watch-history-heading{
+    text-align: center;
+}

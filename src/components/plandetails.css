@@ -1,0 +1,82 @@
+/* MovieDetails.css */
+
+/* Set a background image for the entire container */
+.movie-details-container {
+    background: url('https://example.com/your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: #fff; /* Set text color to white for better contrast */
+}
+
+/* Styling for the movie card */
+.movie-details-card {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for the card */
+    border-radius: 15px;
+    padding: 1.5rem;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); /* Add shadow to lift the card */
+    color: #fff; /* Set text color to white */
+}
+
+/* Title styling */
+.buy-now {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffd700; /* Gold color */
+    margin-bottom: 1rem;
+}
+
+/* Plan title styling */
+.movie-title {
+    font-size: 1.8rem; /* Slightly larger */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Price styling */
+.movie-price {
+    font-size: 1.5rem; /* Slightly larger */
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Duration styling */
+.movie-duration {
+    font-size: 1rem; /* Adjusted font size for duration */
+    text-align: center;
+    margin-bottom: 1.5rem; /* Spacing for duration */
+}
+
+/* Payment option styling */
+.payment-option {
+    margin: 20px 0;
+    text-align: center; /* Center align payment options */
+}
+
+/* Container for the buttons */
+.buttons-container {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+}
+
+/* Buy button styling */
+.buy-button {
+    background-color: #6a0dad; /* Purple button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #5a0a9a; /* Darker purple on hover */
+}

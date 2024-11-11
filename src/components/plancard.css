@@ -1,0 +1,43 @@
+.plan-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .plan-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .plan-title {
+    font-size: 1.2em;
+    margin: 16px 0;
+    color: #333;
+  }
+  
+  .see-more-btn {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .see-more-btn:hover {
+    background-color: #574bff;
+  }
+  

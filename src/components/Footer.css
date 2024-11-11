@@ -1,0 +1,70 @@
+.footer {
+    background-color: rgba(27, 27, 27, 1);
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.footer-about, .footer-contact {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-about h3, .footer-contact h3 {
+    color: #ffd700; /* Gold color for headings */
+}
+
+.footer-about p, .footer-contact p {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+/* Follow Us Styling */
+.footer-follow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    margin-left: 220px;
+    font-weight: bold;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 1.6em;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+    color: #ffd700; /* Gold color on hover */
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-about, .footer-contact {
+        width: 100%;
+    }
+}

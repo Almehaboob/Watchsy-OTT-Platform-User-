@@ -1,0 +1,118 @@
+.home-container {
+  min-height: 100vh;
+  /* background-color:#e56ff2 ; */
+  background-image: url('https://tse4.mm.bing.net/th?id=OIP.dpMAkOyCoK5Zib0shb9zkQHaEK&pid=Api&P=0&h=180');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  padding-top: 20px; /* Adjust top padding to add space */
+  color: #333;
+}
+
+.carousel-container {
+  margin-top: 60px; /* Adjust the value to ensure the carousel is below the navbar */
+}
+
+.movie-cards-container {
+  padding-top: 40px; /* Adjust this value to control space between movie cards and search bar */
+  display: flex;
+  flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+  justify-content: center; /* Center the cards */
+}
+
+.search-bar-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 1rem;
+  color: #333;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  background-color: rgba(137, 65, 137, 0.3);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase;
+}
+
+.search-button:hover {
+  background-color: #8e44ad; /* Darker purple for hover effect */
+  transform: scale(1.05);
+}
+
+.add-movie-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.add-movie-container input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+.add-movie-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-movie-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.pagination-button {
+  background-color: #6200ea; /* Purple color */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pagination-button:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+  transform: scale(1.05);
+}
+
+.pagination-button:disabled {
+  background-color: #b0b0b0; /* Grey color when disabled */
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+

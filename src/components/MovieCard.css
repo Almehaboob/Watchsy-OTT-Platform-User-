@@ -1,0 +1,17 @@
+.card.movie-card {
+    background-color: rgba(189, 175, 242, 0.8); /* Light purple color with some transparency */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card.movie-card:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Watch Date Styling */
+.watch-date {
+    text-align: center; /* Center the date */
+    color: white; /* Set the text color to black */
+    margin-bottom: 0.5rem; /* Add some space below the date */
+    font-weight: bold; /* Make the date stand out a bit more */
+}

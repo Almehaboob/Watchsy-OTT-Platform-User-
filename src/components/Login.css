@@ -1,0 +1,93 @@
+/* Remove global styles from the body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+/* Main login page container */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url('https://images.hdqwalls.com/download/lofi-boy-7z-1920x1200.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Center the login card */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* Styles for login card */
+.login-container .card {
+  width: 25rem;
+  padding: 2rem;
+  background: rgba(111, 66, 193, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.login-container .card:hover {
+  transform: scale(1.02);
+}
+
+.login-container .card-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.login-container .form-label {
+  color: #fff;
+}
+
+.login-container .form-control {
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container .form-control:focus {
+  border-color: #5a2b9a;
+  box-shadow: 0 0 5px rgba(90, 43, 154, 0.5);
+}
+
+.login-container .btn-primary {
+  background-color: #5a2b9a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.login-container .btn-primary:hover {
+  background-color: #4e2490;
+}
+
+.login-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}

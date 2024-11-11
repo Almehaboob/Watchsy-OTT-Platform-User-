@@ -1,0 +1,42 @@
+/* Container for the buttons */
+.buttons-container {
+    display: flex;
+    justify-content: space-between; /* Place buttons with some space between them */
+    align-items: center;
+    margin-top: 1.5rem; /* Add space above this container */
+    gap: 1rem; /* Add space between each button and rating */
+}
+
+/* Watch later button styling */
+.watch-later-button {
+    background-color: transparent;
+    color: #ffd700;
+    border: 2px solid #ffd700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+.watch-later-button:hover {
+    background-color: #ffd700;
+    color: #000;
+}
+
+/* Add rating button styling */
+.add-rating-button {
+    background-color: transparent;
+    color: #ff6347; /* Tomato color */
+    border: 2px solid #ff6347;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+.add-rating-button:hover {
+    background-color: #ff6347;
+    color: #000;
+}

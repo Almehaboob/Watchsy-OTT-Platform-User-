@@ -1,0 +1,90 @@
+/* Style the cards container */
+.plan-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px; /* Reduce gap to fit more cards in a row */
+  margin: 20px;
+  padding-top: 20px; /* Space from the top */
+}
+
+/* Plan Card Styling */
+.plan-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 18%; /* Adjust width to fit 5 cards per row */
+  margin: 10px;
+}
+
+.plan-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Thumbnail Image */
+.plan-card img {
+  width: 100%;
+  height: 140px; /* Reduce height to keep proportions */
+  object-fit: cover; /* Maintain aspect ratio, cover the space */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Plan Card Details */
+.plan-card .details {
+  padding: 10px; /* Reduce padding to match smaller card size */
+  text-align: center;
+}
+
+/* Title and Price Styling */
+.plan-card .details h3 {
+  margin: 8px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.plan-card .details p {
+  margin: 4px 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Available Plan Heading */
+.available-plan {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Pagination Container */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination-button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-button:hover {
+  background-color: #3700b3;
+}
+
+.pagination-info {
+  font-size: 1rem;
+  color: #555;
+}

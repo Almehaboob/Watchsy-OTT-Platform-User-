@@ -1,0 +1,63 @@
+/* Navbar.css */
+
+.custom-navbar {
+    background-color: rgba(128, 0, 128, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 0.8rem 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif; /* Use the imported Google font */
+    font-weight: bold; /* Make brand name bold */
+    color: white; /* Set brand name color to white */
+    font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: #FFD700 !important;
+}
+
+.dropdown-icon {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+    color: #ffffff;
+}
+
+.activities-dropdown .dropdown-toggle:hover .dropdown-icon,
+.account-dropdown .dropdown-toggle:hover .dropdown-icon {
+    transform: rotate(180deg);
+    color: #FFD700;
+}
+
+.dropdown-menu {
+    background-color: rgba(128, 0, 128, 0.5);
+    border: none;
+    padding: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.account-dropdown .dropdown-item,
+.activities-dropdown .dropdown-item {
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+
+.account-dropdown .dropdown-item:hover,
+.activities-dropdown .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFD700;
+}
